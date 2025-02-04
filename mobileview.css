@@ -1,0 +1,870 @@
+.ss {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 36px;
+}
+.icon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon-button {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    align-self: stretch;
+    background-color: #030712;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    text-align: center;
+    font-size: 30px;
+    color: #f9fafb;
+}
+.background {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background-color: #374151;
+    border: 8px solid #030712;
+    box-sizing: border-box;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+}
+.pic-icon {
+    position: absolute;
+    top: 0px;
+    left: 20.5px;
+    width: 240px;
+    height: 280px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.pic-container {
+    width: 280px;
+    position: relative;
+    height: 300px;
+}
+.column {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    position: relative;
+    line-height: 40px;
+    font-weight: 600;
+}
+.text1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: #d1d5db;
+}
+.content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+.location {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.icon-dot-emerald-500 {
+    width: 8px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #10b981;
+    height: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon2 {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hire {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #d1d5db;
+}
+.links {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.actions {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.column1 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 48px;
+}
+.container1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+}
+.hero {
+    align-self: stretch;
+    background-color: #030712;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 64px 16px;
+    font-size: 36px;
+    color: #f9fafb;
+}
+.text4 {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+}
+.tag {
+    border-radius: 12px;
+    background-color: #f6f8fa;
+    color : #111827;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 20px;
+}
+.tag:hover {
+    background-color: #ed3709;
+    color : #f9f9fa;
+}
+.row1 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.background1 {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background-color: #374151;
+    border: 8px solid #111827;
+    box-sizing: border-box;
+    width: 320px;
+    height: 360px;
+    overflow: hidden;
+}
+.pic-icon1 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 280px;
+    height: 360px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.pic-container1 {
+    width: 320px;
+    position: relative;
+    height: 380px;
+}
+.column2 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.text5 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 32px;
+    font-weight: 600;
+}
+.self-proclaimed-designer1 {
+    text-decoration: underline;
+}
+.self-proclaimed-designer {
+    color: inherit;
+}
+.text6 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+}
+.be-in-computer-engineering {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 21px;
+}
+.column4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.checklist {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.content1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 16px;
+    color: #d1d5db;
+}
+.column3 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.row2 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+    font-size: 24px;
+    color: #f9fafb;
+}
+.container2 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.about {
+    align-self: stretch;
+    background-color: #111827;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 64px 16px;
+}
+.subheading {
+    width: 100%;
+    position: relative;
+    line-height: 28px;
+    display: inline-block;
+    max-width: 576px;
+}
+.row5 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+.row3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.icon-javscript {
+    width: 64px;
+    position: relative;
+    height: 64px;
+}
+.javascript {
+    position: relative;
+    line-height: 24px;
+}
+.tech {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.icon-typescript {
+    width: 64px;
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon-react {
+    width: 69.8px;
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.row-1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon-nextjs {
+    width: 64px;
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.tech3 {
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.icon-nodejs {
+    width: 56.3px;
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon-nest {
+    width: 66.1px;
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon-postgresql {
+    width: 62px;
+    position: relative;
+    height: 64px;
+    object-fit: cover;
+}
+.icon-mongodb {
+    width: 29.8px;
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon-tailwindcss {
+    width: 104.7px;
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.icon-figma {
+    width: 42.7px;
+    position: relative;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.grid {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+}
+.row6 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+.skills {
+    align-self: stretch;
+    background-color: #030712;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 16px;
+}
+.row7 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14px;
+    color: #d1d5db;
+}
+.logo-upwork-icon {
+    width: 102px;
+    position: relative;
+    height: 28px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.column7 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.column9 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    font-size: 16px;
+    color: #d1d5db;
+}
+.column8 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 18px;
+    color: #f9fafb;
+}
+.row11 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.row10 {
+    align-self: stretch;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    background-color: #1f2937;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px;
+}
+.team-lead {
+    align-self: stretch;
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+}
+.column17 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: #d1d5db;
+}
+.container4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.experience {
+    align-self: stretch;
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 16px;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+.row16 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14px;
+}
+.picture-icon {
+    flex: 1;
+    position: relative;
+    border-radius: 12px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 192px;
+    object-fit: cover;
+}
+.column18 {
+    align-self: stretch;
+    border-radius: 12px 12px 0px 0px;
+    background-color: #374151;
+    border-bottom: 1px solid #1f2937;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+.fiskil {
+    align-self: stretch;
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+    color: #f9fafb;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text33 {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+}
+.technologies {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 8px;
+    font-size: 14px;
+}
+.actions1 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.column19 {
+    align-self: stretch;
+    border-radius: 12px 0px 0px 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px;
+    gap: 24px;
+}
+.row19 {
+    align-self: stretch;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    background-color: #1f2937;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.work {
+    align-self: stretch;
+    background-color: #030712;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 16px;
+    font-size: 18px;
+}
+.icon-user {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.icon-avatar {
+    width: 64px;
+    border-radius: 64px;
+    background-color: #9ca3af;
+    height: 64px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.text70 {
+    align-self: stretch;
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    color: #d1d5db;
+}
+.customer-details {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    text-align: center;
+    font-size: 18px;
+    color: #f9fafb;
+}
+.column24 {
+    align-self: stretch;
+    flex: 1;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    background-color: #1f2937;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 32px;
+    box-sizing: border-box;
+    gap: 24px;
+    min-width: 300px;
+}
+.text74 {
+    align-self: stretch;
+    position: relative;
+    line-height: 24px;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 8;
+    line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+.row25 {
+    align-self: stretch;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 24px;
+    font-size: 16px;
+}
+.testimonials {
+    align-self: stretch;
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 16px;
+}
+.row28 {
+    align-self: stretch;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+.text79 {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 28px;
+    font-weight: 600;
+}
+.text79:hover {
+    background-color: transparent;
+    color: #ed3709;
+}
+.email {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.column27 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #f9fafb;
+}
+.social {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.row29 {
+    align-self: stretch;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+.icon16 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.span {
+    color: #ef4444;
+}
+.by-sagar-shah {
+    color: #d1d5db;
+}
+.text82 {
+    position: relative;
+    line-height: 20px;
+}
+.footer-note {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.footer {
+    align-self: stretch;
+    background-color: #111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0px;
+}
+.footer:hover {
+    background-color: #ed3709;
+}
+.home-mobile-iphone-8-dar {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 14px;
+    color: #d1d5db;
+    font-family: Inter;
+}
+
